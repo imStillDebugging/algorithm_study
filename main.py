@@ -4,7 +4,7 @@ read = sys.stdin.readline
 
 def count_alphabet(my_string: str) -> dict:
     """
-    문자열을 구성하는 문자들의 빈도를 세어 딕셔너리로 반환하는 함
+    문자열을 구성하는 문자들의 빈도를 세어 딕셔너리로 반환하는 함수
     """
     my_dict = dict()
     for alphabet in my_string:
