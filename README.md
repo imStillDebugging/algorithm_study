@@ -13,7 +13,6 @@ using namespace std;
 map<char, int> countAlphabet(string my_string);
 
 int main(void) {
-	cout << "test" << endl;
 	int N;
 	cin >> N;
 	for (int i = 0; i < N; i++) {
